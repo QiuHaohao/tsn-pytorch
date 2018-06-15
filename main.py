@@ -27,6 +27,8 @@ def main():
         num_class = 51
     elif args.dataset == 'kinetics':
         num_class = 400
+    elif args.dataset == 'e-learning':
+        num_class = 2
     else:
         raise ValueError('Unknown dataset '+args.dataset)
 
